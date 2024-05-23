@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0f3ef0acb9faa634c870b7b703e90d03
+guid: 674c972fef38af7409641a1c987f6cb2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -53,7 +53,7 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 1
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -96,11 +96,67 @@ TextureImporter:
   spriteSheet:
     serializedVersion: 2
     sprites: []
-    outline: []
+    outline:
+    - - {x: 1929, y: -1155}
+      - {x: 1929, y: -969}
+      - {x: 2115, y: -969}
+      - {x: 2121, y: -963}
+      - {x: 2121, y: -381}
+      - {x: 2115, y: -375}
+      - {x: 1929, y: -375}
+      - {x: 1929, y: 195}
+      - {x: 1923, y: 201}
+      - {x: 1737, y: 201}
+      - {x: 1737, y: 387}
+      - {x: 1731, y: 393}
+      - {x: 1545, y: 393}
+      - {x: 1545, y: 579}
+      - {x: 1539, y: 585}
+      - {x: 1353, y: 585}
+      - {x: 1353, y: 771}
+      - {x: 1347, y: 777}
+      - {x: 1161, y: 777}
+      - {x: 1161, y: 963}
+      - {x: 1155, y: 969}
+      - {x: 777, y: 969}
+      - {x: 777, y: 1155}
+      - {x: 771, y: 1161}
+      - {x: -771, y: 1161}
+      - {x: -777, y: 1155}
+      - {x: -777, y: 969}
+      - {x: -1155, y: 969}
+      - {x: -1161, y: 963}
+      - {x: -1161, y: 777}
+      - {x: -1347, y: 777}
+      - {x: -1353, y: 771}
+      - {x: -1353, y: 585}
+      - {x: -1539, y: 585}
+      - {x: -1545, y: 579}
+      - {x: -1545, y: 393}
+      - {x: -1731, y: 393}
+      - {x: -1737, y: 387}
+      - {x: -1737, y: 201}
+      - {x: -1923, y: 201}
+      - {x: -1929, y: 195}
+      - {x: -1929, y: -375}
+      - {x: -2115, y: -375}
+      - {x: -2121, y: -381}
+      - {x: -2121, y: -963}
+      - {x: -2115, y: -969}
+      - {x: -1929, y: -969}
+      - {x: -1929, y: -1155}
+      - {x: -1923, y: -1161}
+      - {x: -1737, y: -1161}
+      - {x: -1737, y: -1347}
+      - {x: -1731, y: -1353}
+      - {x: 1731, y: -1353}
+      - {x: 1737, y: -1347}
+      - {x: 1737, y: -1161}
+      - {x: 1923, y: -1161}
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []

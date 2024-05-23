@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour {
     // The game manager, this is a singleton
     public static GameManager Instance { get; private set; }
     // The initial game speed
-    public float InitialGameSpeed = 5f;
+    public float InitialGameSpeed = 2.5f;
     // The rate of how quick the game speed increases
     public float GameSpeedIncreaseRate = 0.1f;
     // The current game speed

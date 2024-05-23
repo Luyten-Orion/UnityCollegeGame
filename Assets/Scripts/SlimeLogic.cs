@@ -13,16 +13,17 @@ public class SlimeLogic : MonoBehaviour, GroundedCheck {
         rigidbody = GetComponent<Rigidbody2D>();
     }
 
-    public void Update() {
-        // Check if the game is not over
+    // The `FixedUpdate` function is ran every physics frame, so we use it to
+    // modify the physics of the slime
+    public void FixedUpdate() {
+        // Set the RigidBody2D's velocity
         if (!GameManager.Instance.GameOver) {
             // Set the RigidBody2D's velocity
-            rigidbody.velocity = new Vector2(-GameManager.Instance.GameSpeed, rigidbody.velocity.y);
-
             if (IsGrounded) {
                 // If the slime is touching the ground, make it jump
-                rigidbody.AddRelativeForce(Vector2.up * 60f);
+                rigidbody.AddRelativeForce(Vector2.up * 200f);
             }
+            rigidbody.velocity = new Vector2(-GameManager.Instance.GameSpeed, rigidbody.velocity.y);
         }
     }
 
